@@ -1,0 +1,70 @@
+    /* |=========    RESET DA PÁGINA   =========| */
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    color:#f8ebe8;
+    text-decoration: none;
+}
+/* |=========    CORPO DO SITE   =========| */
+.main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-area: 'a b';
+    height: 100vh;
+}
+.bg{
+    background-image: url(/img/ws_Coffee_Cappuccino_Cup_Foam_1920x1080.png);  
+    background-repeat: no-repeat;
+    background-size:cover;  
+}
+.menu{
+    background-color: #f8ebe8;
+    border-style: dashed;
+    border-color: #75524b;
+    border-width: 3px;
+    display: grid;
+    grid-template-areas: 'a b c';
+    grid-template-rows: 50% 50%;
+}
+.produto{
+    grid-area: b;
+    margin-top: 20vh;
+    grid-row: 1;
+    height: 75vh;
+}
+.preco{
+    list-style: none;
+    margin-top: 20vh;
+    grid-area: c;
+    height: 75vh;
+}
+.main ul li{
+    color: #75524b;
+    line-height: 35px;
+}
+.menu h1{
+    grid-area: b;
+    color: #75524b;
+    margin-top: 10vh;
+    height: 70px;
+    border: dashed;
+    text-align: center;
+    padding: 15px;
+    grid-row: 1;  
+}
+.bg a i{
+    margin-top: 5%;
+    width: 50px;
+    font-size: 25px;
+}
+.bg a{
+    border-radius: 20px;
+    border: solid;
+    text-align: center;
+    padding: 2%;
+    height: 50px;
+    margin-left: 5%;
+}

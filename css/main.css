@@ -1,0 +1,96 @@
+/* |=========    RESET DA PÁGINA   =========| */
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    color:#000;
+    text-decoration: none;
+}
+/* |=========    CORPO DO SITE   =========| */
+.main{
+    background-image: url(/img/cafehome.png);
+    background-size: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-areas: 'a b c';
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;    
+}
+.nome{
+    background-image: linear-gradient(to bottom, rgba(124, 36, 36, 0.045), rgb(0, 0, 0,255));
+    color: #f8ebe8;
+    text-align: center;
+    grid-area: a;
+    grid-column-end: c;
+    grid-row: 4;
+}
+.main h1{
+    padding-top: 3%;
+}
+.navegacao{
+    text-align: center;
+    height: 50px;
+    grid-area: a;
+    grid-column-end: c;
+}
+.navegacao a {
+    margin: 5%;
+    color: #f8ebe8;
+    text-align: center;
+}
+.login{
+    border-radius: 20px;
+    border: solid;
+    text-align: center;
+    padding: 2%;
+    height: 50px;
+    margin-left: 55%;
+    margin-right: 10%;
+    grid-area: c;
+}
+.navegacao,.login {
+    margin-top: 2%;
+}
+.login i{
+    float: right;
+}
+.logo{
+    background-image: url(/img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center bottom;
+    grid-area: b;
+    grid-row: 2;
+    grid-row-end: 4;
+}
+
+
+/* |=========    RODAPÉ   =========| */
+.rodape{
+    background-color: #000;
+    text-align: center;
+}
+.icones i{
+    margin-right: 3%;
+    font-size: 50px;
+}
+.icones i,p{
+    color: #f8ebe8;
+}
+.icones a :hover{
+    background-color: red;
+    border-radius: 8px;
+    transition: 0.3s;
+    width: 60px;
+}
+/* |=========    SIMPLIFICADOR   =========| */
+.navegacao, .login, .navegacao, .logo{
+    background-color: transparent;
+    margin-top: 3%;
+}
+.login, i {
+    color: #f8ebe8;
+}

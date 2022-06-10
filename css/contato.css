@@ -1,0 +1,49 @@
+/* |=========    RESET DA PÁGINA   =========| */
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    color:#f8ebe8;
+    text-decoration: none;
+}
+/* |=========    CORPO DO SITE   =========| */
+.main{
+    background-image: url(/img/kapuchino-napitok-risunki.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 'a b';
+    grid-template-columns: 1fr 1fr;
+}
+.contato{
+    background-color: rgba(248, 235, 232, 90%);
+    font-size: 20px;
+    margin-top: 30%;
+    margin-left: 38%;
+    margin-right: 5%;
+    height: 30vh;
+    border-radius: 30px;
+    padding: 2%;
+    border: dashed; 
+    border-color: #75524b;
+}
+.contato h1,p{
+    color: #75524b;
+}
+.main a i{
+    float: left;
+}
+.main a{
+    border-radius: 20px;
+    border: solid;
+    text-align: right;
+    padding: 2%;
+    margin-left: 2%;
+    margin-top: 3%;
+    height: 50px;
+    width: 15vh;
+}

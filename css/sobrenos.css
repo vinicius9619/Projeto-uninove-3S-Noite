@@ -1,0 +1,46 @@
+/* |=========    RESET DA PÁGINA   =========| */
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    color:#75524b;
+    text-decoration: none;
+}
+/* |=========    CORPO DO SITE   =========| */
+.main{
+    background-image: url(/img/mike-kenneally-zlwDJoKTuA8-unsplash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+.bordado{
+    background-color: rgba(248, 235, 232, 75%);
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 50vh;
+    border-radius: 30px;
+    padding: 2%;
+    border: dashed;  
+}
+h1{
+    text-align: center;
+}
+.main a i{
+    margin-top: 5%;
+    font-size: 25px;
+}
+i{
+    margin-right: 2%;
+}
+.main a{
+    border-radius: 20px;
+    border: solid;
+    text-align: center;
+    padding: 1%;
+    margin-left: 2%;
+}
